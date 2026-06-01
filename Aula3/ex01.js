@@ -6,11 +6,11 @@ const aluno = {
 };
 
 function processarFicha(alunoObjeto) {
-    // Calcula a média das notas dinamicamente
+ 
     const soma = alunoObjeto.notas.reduce((acc, nota) => acc + nota, 0);
     const media = (soma / alunoObjeto.notas.length).toFixed(1);
     
-    // Define a situação
+
     const situacao = media >= 7.0 ? "Aprovado(a)" : "Reprovado(a)";
 
     console.log(`=== FICHA DO ALUNO ===`);
@@ -23,5 +23,5 @@ function processarFicha(alunoObjeto) {
     console.log(`======================`);
 }
 
-// Execução
+
 processarFicha(aluno);
