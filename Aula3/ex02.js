@@ -1,4 +1,4 @@
-// ex02.js - Lista de Produtos
+
 
 const estoque = [
     { id: 1, nome: "Notebook", preco: 4500.00, qtd: 5 },
@@ -22,5 +22,5 @@ function exibirEstoque(produtos) {
     console.log(`Valor Total do Estoque: R$ ${valorTotalGeral.toFixed(2)}`);
 }
 
-// Execução
+
 exibirEstoque(estoque);
